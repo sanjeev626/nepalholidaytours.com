@@ -1,0 +1,1 @@
+[09-Jul-2014 23:10:49 America/Chicago] PHP Fatal error:  Call to a member function getValue() on a non-object in /home/holiday/public_html/js/checkpage.php on line 4

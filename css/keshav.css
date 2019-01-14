@@ -1,0 +1,1026 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0 auto;
+	padding:0;	
+	background: url(../img/top-bg.gif) repeat-x #FFF top center;
+	width:1000px;	
+}
+.main
+{	
+	padding:0 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+}
+	.header{
+		overflow:hidden;
+		margin-bottom:20px;
+	}
+		.tmenu{
+			background:#b3391a;	
+			overflow:hidden;	
+			float:right;	
+			margin:0 120px 0 0;
+			width:296px;
+			height:30px;
+			padding:10px 0 0 20px;
+			border-radius:5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		}
+			.tmenu ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+			.tmenu ul li{
+				float:left;
+			}
+			.tmenu ul li a{
+				color:#FFF;
+				text-decoration:none;
+				display:block;
+				padding:3px 10px;
+				margin:0;
+				
+			}
+			.tmenu ul li a:hover{
+				color:#FF0;
+				background:#930;
+				border-radius:3px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+			}
+		.logo{
+			background:url(../img/logo.gif) no-repeat;
+			width:354px;
+			height:72px;
+			float:left;
+			margin:29px 0 0 23px;
+		}
+		.menu{
+			float:left;
+			overflow:hidden;
+			margin:30px 0 0 65px;
+			width:530px;
+		}
+			.menu ul{
+				margin:0;
+				padding:0;
+				list-style:none;
+				
+			}
+			
+			.menu > ul > li{
+				float:left;
+			}
+			.menu ul li a{
+				display:block;
+				color:#3b3c57;
+				font-size:14px;
+				font-family:"Microsoft Sans Serif", Arial;
+				text-decoration:none;
+				padding:4px 15px;
+				
+			}
+			.menu ul li:hover a{
+				background:#ffefef;
+				border-radius:4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+			}
+			.menu ul li a:hover{
+				color:#333;
+				background:#ffefef;
+				border-radius:4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+			}
+			
+			.menu ul li:hover>ul{
+				display: block;
+				position: absolute;
+				background:#ffefef;
+				border-radius:4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+			}
+			
+			.menu ul ul{
+				display: none;
+			}
+			
+			.menu ul li ul li a:hover{
+				background:#b3391a;
+				color:#fff;				
+				}
+			
+			
+
+	.banner{
+		clear:both;
+		overflow:hidden;
+		margin-bottom:30px;	
+	}
+		.banner img{
+			border-radius:10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			margin:0;
+		}
+	.bst{
+		clear:both;
+		overflow:hidden;
+		margin-bottom:12px;
+	}
+		.bst h1{
+			font-size:30px;
+			font-family:"Futura BdCn BT", Arial;
+			text-align:center;
+			color:#222;
+			margin:0 0 25px 0;
+		}
+		.btit{
+			font-size:30px;
+			font-family:"Futura BdCn BT", Arial;
+			text-align:center;
+		}
+	.triplist{
+		clear:both;
+		overflow:hidden;
+		width:980px;
+	}
+		.trips{
+			margin:0 5px 15px 5px;
+			padding:22px 15px 10px 15px;
+			width:203px;
+			border:1px solid #9bc4ff;
+			background:url(../img/t-box-bg.gif) repeat-x #FFF;
+			border-radius:5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			float:left;
+		}
+			.ttit{
+				margin:0 0 12px 0;
+				font-size:15px;	
+				font-family:"Microsoft Sans Serif", Arial;
+				color:#43425b;
+			}
+				.ttit a{
+					text-decoration:none;	
+					color:#43425b;
+				}
+				.ttit a:hover{
+					text-decoration:underline;
+				}
+			.timg{
+				overflow:hidden;
+			}
+				.timg img{
+					margin:0;
+					border:1px solid #7faef2;
+				}
+			.tdur{
+				font-size:13px;
+				font-family:"Microsoft Sans Serif", Arial;
+				margin:16px 0 10px 0;
+				color:#43425b;
+			}
+			.tdetail{
+				overflow:hidden;
+			}
+				.tdetail a{
+					display:block;
+					text-decoration:none;
+					text-align:center;
+					height:20px;
+					background:url(../img/detail-btn.gif) no-repeat;
+					color:#FFF;
+					padding-top:4px;
+				}
+				.tdetail a:hover{
+					background:url(../img/detail-btn-hv.gif) no-repeat;
+					color:#000;
+				}
+	.mft{
+		clear:both;
+		margin-top:60px;
+		overflow:hidden;
+		padding-bottom:25px;
+		border-bottom:1px dotted #ccc;	
+	}
+                .vsn{
+			overflow:hidden;
+			text-align:center;	
+		}
+			.vsn a{
+				text-decoration:none;
+				font-size:16px;
+				color:#930;
+			}
+			.vsn a:hover{
+				text-decoration:underline;
+				color:#00F;	
+			}
+			.vsn img{
+				
+			}
+		.cmail{
+			float:left;	
+			width:360px;
+			color:#666;
+			font-size:18px;
+			margin:0;
+		}
+			.cmail img{
+				float:left;
+				margin:0;	
+				border:none;
+			}
+			.cmail a{
+				text-decoration:none;	
+				color:#666;
+			}
+			.cmail a:hover{
+				color:#00F;
+			}
+			span.cm{
+				float:left;	
+				padding:20px 0 0 10px;
+			}
+			
+		.social{
+			float:left;
+			width:360px;
+			overflow:hidden;
+		}
+		.fb{
+			float:left;	
+			width:169px;
+			margin:0 10px 10px 0;
+		}
+		.cphone{
+			float:right;
+			width:218px;
+			color:#666;
+			font-size:18px;	
+		}
+			.cphone img{
+				float:left;
+				margin:0;	
+				border:none;
+			}
+	.bottom{
+		clear:both;
+		overflow:hidden;
+		margin-top:20px;
+	}
+		.aa{
+			overflow:hidden;
+			margin-bottom:40px;
+		}
+			.iata{
+				float:left;
+				margin-left:20px;
+			}
+                        .weaccept{
+				float:left;
+				margin-left:80px;
+			}
+			.aff{
+				float:right;
+				margin-right:20px;
+			}
+		.cpy{
+			clear:both;
+			overflow:hidden;
+			text-align:center;
+			padding:10px 0 30px 0;
+			border-top:1px dotted #ccc;
+			
+		}
+	/*trip page css*/
+	.pbanner{
+		clear:both;
+		overflow:hidden;
+		margin-bottom:5px;	
+	}
+		.pbanner img{
+			border-radius:10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			margin:0;
+		}
+		
+	.pbanner .slides{
+		margin:0px;	
+		padding:0px;
+		}
+	.pbanner .slider ul li{
+		margin: 0px;
+		}	
+	.pbanner .slides li img{ width:100%; }	
+	.banul{
+		clear:both;
+		overflow:hidden;
+		width:980px;	
+	}
+		.banul ul{
+			margin:0;
+			padding:0;
+			list-style:none;
+			width:980px;
+		}
+		.banul ul li{
+			float:left;
+			margin-right:5px;
+		}
+		.banul ul li a{
+			text-decoration:none;
+			display:block;
+		}
+		.banul ul li a:hover{
+			
+		}
+		.banul ul li img{
+			margin:0;
+			border:1px solid #e4e4e4;	
+			width:192px;
+			height:auto;
+		}
+	.ptrip{
+		clear:both;
+		overflow:hidden;
+		margin-top:28px;
+	}
+		.dayhigh{
+			float:left;
+			width:190px;
+			overflow:hidden;	
+		}
+			.day{
+				color:#5b82ff;
+				font-size:18px;
+				padding:0 0 10px 0;
+				border-bottom:1px solid #CCC;
+				margin:0 0 25px 10px;
+				width:165px;
+			}
+			.high{
+				overflow:hidden;
+				margin:0 0 0 6px;
+				padding-bottom:30px;
+				border-bottom:1px solid #e4e4e4;
+			}
+				.th{
+					width:140px;
+					height:26px;
+					background:#2c5eff;
+					color:#FFF;
+					font-size:16px;
+					font-weight:600;
+					padding:7px 0 0 25px;
+					border-radius:4px;
+					-moz-border-radius: 4px;
+					-webkit-border-radius: 4px;
+					margin-bottom:20px;
+				}
+				.high p{
+					color:#5b82ff;
+					margin:0 0 0 6px;
+				}
+				
+		.dtrip{
+			float:left;
+			width:574px;
+			overflow:hidden;
+			padding:0 20px 0 6px;
+			
+		}
+			h1{
+				margin:0 0 25px 0;
+				padding:0;
+				color:#f16a06;	
+				font-size:30px;
+				font-family:"Futura BdCn BT", Arail;
+			}
+			.tinfo{
+				border-right:1px dotted #ccc;
+				overflow:hidden;
+				width:574px;
+				padding:0 19px 0 0;	
+			}
+			.tinfo p{
+				color:#43425b;	
+				margin:0;
+				padding:0;
+				text-align:justify;
+				
+			}
+		
+
+		.alldetail{
+			clear:both;
+			overflow:hidden;
+			margin-top:20px;	
+		}
+/*JQuery*/
+		ul.tabNavigation {
+			margin: 0;
+			padding: 0;
+			float: left;
+			list-style: none;
+			 /*--Set height of tabs--*/
+			
+			width: 100%;
+		}
+		ul.tabNavigation li {
+			float: left;
+			margin-right:12px;
+			padding: 0;
+			height: 26px; /*--Subtract 1px from the height of the unordered list--*/
+			 /*--Vertically aligns the text within the tab--*/
+			
+			
+			 /*--Pull the list item down 1px--*/
+			overflow: hidden;
+			position: relative;
+			
+			width:100%;
+			
+		}
+			li#iti{
+				width:115px;
+			}
+			li#inc{
+				width:80px;
+			}
+			li#exc{
+				width:82px;
+			}
+			li#rev{
+				width:100px;
+			}
+			li#not{
+				width:90px;
+			}
+		ul.tabNavigation li a {
+			text-decoration: none;
+			color: #43425b;
+			display: block;
+			font-size:12px;
+			font-weight:600;
+			border:1px solid #f4f4f4;
+			border-radius:4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			text-align:center;
+			padding:3px 10px;
+			
+			 /*--Gives the bevel look with a 1px white border inside the list item--*/
+			
+		}
+		ul.tabNavigation li a:hover {
+			background: #ea4200;
+			text-decoration:none;
+			color:#FFF;
+			border:1px solid #f4f4f4;
+			border-radius:4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+		}
+				
+		
+		html ul.tabNavigation li.active, html ul.tabNavigation li.active a, html ul.tabNavigation li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+			background: #ea4200;
+			color:#FFF;
+			text-decoration:none;
+			
+			border-radius:4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			/*--Makes the active tab look like it's connected with its content--*/
+			height:23px;
+			
+		}
+
+	
+		/*Tab Content*/
+		.tabContainers {
+			
+			overflow: hidden;
+			clear: both;
+			float: left; 
+			width: 570px;
+			background: #fff;
+			margin:15px 0 0 0;
+			border:1px dotted #ccc;
+		}
+		.tabContent {
+			padding: 25px 25px 10px 25px;
+			overflow:hidden;
+		}
+			.tabContent h2{
+				margin:0 0 15px 0;
+				padding:0;	
+				font-size:14px;
+				font-family:Tahoma, Geneva, sans-serif;
+				color:#00F;
+			}
+		.daydetail{
+			overflow:hidden;
+			clear:both;
+			margin-bottom:40px;
+		}
+			.dayc{
+				width:68px;
+				float:left;
+				overflow:hidden;
+				font-size:13px;
+				font-weight:900;
+				color:#bcbcbe;
+			}
+			.dayinfo{
+				float:left;
+				overflow:hidden;
+				width:452px;
+			}
+				.desd{
+					font-size:13px;
+					font-weight:600;
+					color:#6b6b6b;
+					margin-bottom:20px;
+				}
+				.desinfo{
+					margin-bottom:20px;
+				}
+					.desinfo p{
+						margin:0;
+						padding:0;
+						color:#6b6b6b;	
+					}
+				.dayser{
+					overflow:hidden;
+					color:#6b6b6b;
+				}
+					.tick{
+						background:url(../img/ico-tick.jpg) no-repeat;
+						padding-left:20px;
+						float:left;
+						margin-right:20px;
+						
+					}
+		.tbook{
+			clear:both;
+			text-align:center;
+			margin:10px 0;	
+		}
+			.tbook a{
+				display:block;
+				text-decoration:none;
+				width:163px;
+				height:42px;
+				background:url(../img/booknow-btn.jpg) no-repeat;
+				margin-left:200px;
+			}
+			.tbook a:hover{
+				background:url(../img/booknow-btn-hv.jpg) no-repeat;	
+			}
+			
+	.bookacc{
+		float:left;
+		width:190px;
+		overflow:hidden;
+	}
+		.tprice{
+			background:#009;
+			overflow:hidden;
+			font-size:18px;
+			text-align:center;	
+			color:#FFF;
+			padding:5px 0;
+			margin-bottom:10px;
+		}
+		.rtbook{
+			margin-bottom:18px;
+			overflow:hidden;
+		}
+			.rtbook a{
+				display:block;
+				text-decoration:none;
+				width:163px;
+				height:42px;
+				background:url(../img/booknow-btn.jpg) no-repeat;
+				margin-left:15px;
+			}
+			.rtbook a:hover{
+				background:url(../img/booknow-btn-hv.jpg) no-repeat;
+			}
+		.acco{
+				overflow:hidden;
+				margin:0 0 38px 17px;
+				padding-bottom:30px;
+				border-bottom:1px solid #e4e4e4;
+			}
+				.ta{
+					width:140px;
+					height:26px;
+					background:#5b82ff;
+					color:#FFF;
+					font-size:16px;
+					font-weight:600;
+					padding:7px 0 0 25px;
+					border-radius:4px;
+					-moz-border-radius: 4px;
+					-webkit-border-radius: 4px;
+					margin-bottom:20px;
+				}
+				.acco p{
+					color:#5b82ff;
+					margin:0 0 0 6px;
+				}
+		.rmail{
+			text-align:center;	
+			overflow:hidden;
+			margin-bottom:70px;
+		}
+			.rmail img{
+				margin:0 0 17px 0;
+				border:none;	
+			}
+			.rmail a{
+				text-decoration:none;
+				color:#666;
+				font-size:13px;
+			}
+			.rmail a:hover{
+				text-decoration:underline;
+				color:#00F;	
+			}
+		.rtel{
+			text-align:center;
+			overflow:hidden;
+			margin-bottom:70px;
+			color:#666;
+			font-size:18px;
+		}
+			.rtel img{
+				margin:0 0 17px 0;
+				border:none;
+			}
+		.rfb{
+			text-align:center;
+			overflow:hidden;
+			margin-bottom:30px;
+		}
+			.rfb img{
+				margin:0;
+				border:none;	
+			}
+			.rfb a{
+				text-decoration:none;
+				
+			}
+		.pg{
+			text-align:center;	
+			overflow:hidden;
+			background:url(img/vehicle-service-nepal.gif) no-repeat;
+			margin-left:15px;
+		}
+			.pg a{
+				
+				text-decoration:none;
+				display:block;
+				height:24px;
+				width:164px;
+				padding:120px 0 0 0;
+				color:#FFF;	
+			}
+/*General Page*/
+	.gp{
+			float:left;
+			width:764px;
+			overflow:hidden;
+			padding:0 20px 0 6px;
+			
+		}
+			
+			.ginfo{
+				border-right:1px dotted #ccc;
+				overflow:hidden;
+				width:764px;
+				padding:0 19px 0 0;	
+			}
+			.ginfo p{
+				color:#43425b;	
+				margin:0;
+				padding:0;
+				text-align:justify;
+			}
+			
+/*Activity page*/
+.tlist{
+	clear:both;
+	overflow:hidden;
+}
+	.tno{
+		border:1px solid #CCF;
+		padding:15px;
+		border-radius:6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		overflow:hidden;
+		margin-bottom:10px;
+	}
+		.tpic{
+			float:left;
+			overflow:hidden;
+			padding:3px;
+			border:1px solid #CCC;
+			margin-right:15px;
+		}
+			.tpic img{
+				margin:0;
+				padding:0;
+				border:none;
+				width:200px;
+				height:153px;	
+			}
+		.tdall{
+			float:left;
+			overflow:hidden;
+			width:500px;
+			
+		}
+			.tdall h2{
+				margin:0 0 10px 0;
+				padding:0;
+			}
+				.tdall h2 a{
+					text-decoration:none;
+					color:#C00;
+				}
+				.tdall h2 a:hover{
+					text-decoration:underline;
+				}
+				.tld{
+					font-size:14px;
+					overflow:hidden;
+					line-height:24px;
+					margin-bottom:5px;
+					color:#C00;
+				}
+					span.area{
+						float:left;
+						font-size:12px;
+						margin-right:20px;
+						color:#666;
+					}
+					span.mgs{
+						float:left;
+						font-size:12px;
+						margin-right:20px;
+						color:#666;
+					}
+					span.sea{
+						float:left;
+						font-size:12px;
+						color:#666;
+					}
+					.tdall p{
+						margin:0;
+						padding:5px 0;
+						clear:both;
+						border-bottom:1px dashed #CCC;
+						border-top:1px dashed #CCC;
+					}
+					.trpd{
+						overflow:hidden;
+						clear:both;
+						margin-top:10px;
+					}
+						.tlp{
+							float:left;	
+							padding:3px 15px;
+							margin-right:10px;
+							background:#000;
+							color:#FFF;
+							border-radius:4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+						}
+						.trpd a{
+							display:block;
+							text-decoration:none;
+							background:#F60;
+							color:#FFF;
+							float:left;
+							padding:3px 15px;
+							border-radius:4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		margin-right:10px;
+						}
+						.trpd a:hover{
+							background:#000;
+							color:#FFF;
+						}
+			/*Trip Reviews*/
+			.trev{
+				overflow:hidden;
+				margin:10px 0 0 0;	
+			}
+			.tr{
+				overflow:hidden;
+				margin:0 0 10px 0;
+				border:1px solid #eee;
+				border-radius:4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+				padding:10px;
+			}
+			.rpic{
+				float:left;
+				overflow:hidden;
+				padding:3px;
+				border:1px solid #CCC;
+				margin-right:15px;
+			}
+			.rpic img{
+				margin:0;
+				padding:0;
+				border:none;
+				width:300px;	
+			}
+			.rdall{
+				float:left;
+				overflow:hidden;
+				width:400px;
+			
+			}
+			.rdall h2{
+				margin:0 0 10px 0;
+				padding:0;
+			}
+				.rdall h2 a{
+					text-decoration:none;
+					color:#C00;
+				}
+				.rdall h2 a:hover{
+					text-decoration:underline;
+				}
+				.rld{
+					font-size:14px;
+					overflow:hidden;
+					line-height:24px;
+					margin-bottom:5px;
+					color:#C00;
+				}
+					
+					.rdall p{
+						margin:0;
+						padding:5px 0;
+						clear:both;
+						border-bottom:1px dashed #CCC;
+						border-top:1px dashed #CCC;
+					}
+
+/*rform*/
+.reserve{
+	overflow:hidden;
+	border:1px dashed #360;
+	padding:20px;	
+}
+.seg{
+	clear:both;
+	overflow:hidden;
+	
+}
+	.fl{
+		clear:both;
+		overflow:hidden;
+		padding:5px 0;
+	}
+	.fl label{
+		float:left;
+		width:100px;	
+	}
+	.fl input{
+		margin:0;
+		padding:0;
+		width:180px;
+	}
+		input#tripname{
+			width:400px;	
+		}
+		input#chkin, input#chkout{
+			float:left;	
+		}
+		input#desired, input#required{
+			width:15px;	
+		}
+		.fl img{
+			margin:0 0 0 5px;
+			float:left;
+				
+		}
+	.fl textarea{
+		margin:0;
+		padding:0;
+		width:615px;
+	}
+	.fl select{
+		margin:0;
+		padding:0;
+	}
+
+.needsfilled {
+	background:red;
+	color:white;
+}
+
+
+/*Link Exchange*/
+.linklist{
+	clear:both;
+	overflow:hidden;
+	margin-top:20px;
+	border-top:1px dashed #333;
+	padding:5px 0;
+}
+	.linklist h2{
+		margin:10px 0 10px 0;
+		padding:0;
+	}
+	.linklist ul{
+		margin:0 0 10px 0;
+		padding:0;
+		list-style:none;
+		overflow:hidden;
+	}
+	.linklist ul li{
+		float:left;
+	}
+	
+	.linklist ul li a{
+		display:block;
+		padding:5px 30px;
+		text-decoration:none;
+		color:#FFF;
+		background:#F30;
+		margin:1px 1px 0 0;
+	}
+	.linklist ul a:hover{
+		background:#000;
+	}
+	
+	.linklist ul li a.active{
+		background: #000;
+	}
+	.linklist ul li a.default{
+		background: #F30;
+	}
+	
+		.lk{
+			clear:both;
+			overflow:hidden;
+			margin:10px 0;	
+			padding:10px;
+			background:#efefef;
+		}
+
+/*Vehicle*/
+.vehicle{
+	overflow:hidden;
+}
+.vehicle ul{
+	margin:0;
+	padding:0;
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+	overflow:hidden;
+	list-style:none;
+}
+.vehicle ul li{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.vehicle ul li ul{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.vehicle ul li ul li{
+	float:left;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:2px;
+}
+
+		
+

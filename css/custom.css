@@ -1,0 +1,65 @@
+/* CSS Document */
+.menu ul {
+	z-index: 999999999;
+}
+
+.gp .banul, .gp .banul ul{
+	width: 790px;
+}
+.gp .banul ul li
+{
+	
+	margin-right:5px;
+	margin-bottom:5px;
+}
+.gp .banul ul li a
+{
+	position:relative;
+	height:208px;
+	overflow:hidden;
+	display:block;
+	
+}
+.gp .banul ul li a > span{
+	width:140px;
+	position: absolute;
+	left: 50%;
+	margin-left: -70px;
+	top: 50%;
+	height: 42px;
+	margin-top:-12px;
+	opacity: 0;
+	text-align:center;
+	color: #fff;
+	background:rgba(0,0,0,0.4);
+	line-height:14px;
+	display:table;
+}
+
+.gp .banul ul li a > span > span{ display:table-cell; vertical-align:middle; }
+
+.gp .banul ul li a:hover span{
+	opacity: 1;
+}
+.gp .banul ul li a:before{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	border:6px solid rgba(0,0,0,0.15);
+	opacity: 0;
+	content:"";
+	transition:all 0.4s ease 0s;
+}
+.gp .banul ul li a:hover:before{
+	opacity: 1;
+
+}
+
+.gp .banul ul li a img
+{
+	width: 150px;
+}
+
+.banner .bx-wrapper .bx-caption span { padding:10px 10px 20px }
